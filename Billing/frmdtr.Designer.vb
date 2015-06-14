@@ -152,6 +152,7 @@ Partial Class frmdtr
         Me.Label41 = New System.Windows.Forms.Label()
         Me.lblgetrot = New System.Windows.Forms.Label()
         Me.txtgperiod = New System.Windows.Forms.TextBox()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -1515,11 +1516,19 @@ Partial Class frmdtr
         Me.txtgperiod.TabIndex = 12
         Me.txtgperiod.Text = "15"
         '
+        'TextBox2
+        '
+        Me.TextBox2.Location = New System.Drawing.Point(404, 33)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox2.TabIndex = 13
+        '
         'frmdtr
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1036, 595)
+        Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.txtgperiod)
         Me.Controls.Add(Me.lblgetrot)
         Me.Controls.Add(Me.Label41)
@@ -1669,5 +1678,6 @@ Partial Class frmdtr
     Friend WithEvents lblgetrot As System.Windows.Forms.Label
     Friend WithEvents txtgperiod As System.Windows.Forms.TextBox
     Friend WithEvents CheckBox15 As System.Windows.Forms.CheckBox
+    Friend WithEvents TextBox2 As System.Windows.Forms.TextBox
 
 End Class
